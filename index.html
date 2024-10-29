@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>capum</title>
+    <script src="aframe.min.js"></script>
+    <script src="aframe-ar.js"></script>
+</head>
+<body>
+    <a-scene embedded arjs>
+        <a-marker preset="hiro">
+            <a-sphere radius="1" 
+            material=
+            "color:#3498db;"
+            depth="1"
+            height="1"
+            widht="1"
+            position="0;0;0"
+            rotation="0;0;0">
+            </a-sphere>
+            <a-imagen src="perrito.jpg" width=1; height=1; rotation="90 0 180"></a-image>
+        </a-marker>
+        <a-marker preset="kanji">
+            <a-sphere src="perrito.jpg"></a-sphere>
+        
+        </a-marker>
+        <a-entity camera></a-entity>
+    </a-scene>
+</body>
+</html>
